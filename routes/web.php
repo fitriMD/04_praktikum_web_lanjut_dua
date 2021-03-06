@@ -18,4 +18,18 @@ use App\Http\Controllers\HomeController;
 });
 */
 
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/home', [HomeController::class, 'index']);
+
+Route::prefix('category') ->group(function () {
+    Route::get('/{id}', [HomeController::class, 'products']);
+});
+
+Route::get('/news/{id?}', [HomeController::class, 'news']);
+
+Route::prefix('programkerja') ->group(function () {
+    Route::get('/{id}', [HomeController::class, 'program']);
+});
+
+Route::get('/about', [HomeController::class, 'about']);
+
+Route::resource('/contact', HomeController::class);
