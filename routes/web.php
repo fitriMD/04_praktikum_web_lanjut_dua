@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\WelcomeController;
-use App\Http\Controllers\ContactController;
+use App\Http\Controllers\HomeController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,31 +25,21 @@ use App\Http\Controllers\ContactController;
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'home']);
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [HomeController::class, 'index']);
 
-Route::prefix('game')->group(function(){
-    Route::get('/list-game', function () {
-        return view('products');
-    });
-});
+Route::get('/menu', [HomeController::class, 'menucafe']);
 
-Route::get('news', function () {
-    return view('news', ['news' => 'news','topic' => 'educa-studio-berbagi-untuk-warga-sekitar-terdampak-covid-19']);
-});
+Route::get('/today-special', [HomeController::class, 'todayspecial']);
 
-Route::prefix('program')->group(function(){
-    Route::get('/daftar-program', function () {
-        return view('program');
-    });
-});
+Route::get('/about', [HomeController::class, 'about']);
 
-Route::get('/about-us', function () {
-    return view('about-us');
-});
+Route::get('/contact', [HomeController::class, 'contact']);
 
-// Route::resource('/contact-us', view('contact-us'));
+Route::get('/varian', [HomeController::class, 'varianmenu']);
 
-Route::resource('contact', ContactController::class);
+Route::get('/informasi1', [HomeController::class, 'informasi1']);
+
+Route::get('/informasi2', [HomeController::class, 'informasi2']);
+
+
 
