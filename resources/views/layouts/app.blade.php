@@ -35,8 +35,7 @@ http://www.templatemo.com/tm-488-classic
                 </div>                                  
             </div>            
         </div>
-        @include('layouts.slider')
-        
+        @include('layouts.slider')    
 
        @yield('content')
         

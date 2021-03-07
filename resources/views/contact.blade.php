@@ -1,358 +1,184 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Classic - Contact Page</title>
-<!--
-Classic Template
-http://www.templatemo.com/tm-488-classic
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cafe House - Contact Info.</title>
+<!-- 
+Cafe House Template
+http://www.templatemo.com/tm-466-cafe-house
 -->
-    <!-- load stylesheets -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
-    <link rel="stylesheet" href="css/templatemo-style.css">                                   <!-- Templatemo style -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/templatemo-style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-          <![endif]-->
-</head>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-    <body>
-       
-        <div class="tm-header">
-            <div class="container-fluid">
-                <div class="tm-header-inner">
-                    <a href="#" class="navbar-brand tm-site-name">Classic</a>
-                    
-                    <!-- navbar -->
-                    <nav class="navbar tm-main-nav">
-
-                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
-                            &#9776;
-                        </button>
-                        
-                        <div class="collapse navbar-toggleable-sm" id="tmNavbar">
-                            <ul class="nav navbar-nav">
-                                <li class="nav-item">
-                                    <a href="index.html" class="nav-link">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="about.html" class="nav-link">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="blog.html" class="nav-link">Blog</a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a href="contact.html" class="nav-link">Contact</a>
-                                </li>
-                            </ul>                        
-                        </div>
-                        
-                    </nav>  
-
-                </div>                                  
-            </div>            
-        </div>
-
-        <div class="tm-contact-img-container">
-            
-        </div>
-
-        <section class="tm-section">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-
-                        <section>
-                            <h3 class="tm-gold-text tm-form-title">Pellentesque fermentum mauris</h3>
-                            <p class="tm-form-description">Vivamus accumsan blandit ligula. Sed lobortis efficitur sapien. Quisque vel sem eu turpis ullamcorper euismod. Praesent quis nisi ac augue luctus viverra. Sed et dui nisi. Fusce vitae dapibus justo.</p> 
-
-
-                            <form action="index.html" method="post" class="tm-contact-form">                                
-                                <div class="form-group">
-                                    <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject"  required/>
-                                </div>
-                                <div class="form-group">
-                                    <textarea id="contact_message" name="contact_message" class="form-control" rows="6" placeholder="Message" required></textarea>
-                                </div>
-                            
-                                <button type="submit" class="tm-btn">Submit</button>                          
-                            </form>   
-                        </section>
-                        
-                        <section class="tm-margin-t-mid tm-map-section">
-                            <h3 class="tm-gold-text tm-form-title">Pellentesque fermentum mauris</h3>
-
-                            <div id="google-map"></div>
-
-                            <p class="tm-form-description">Morbi vel pharetra massa, non iaculis tortor. Nulla porttitor tincidunt felis et feugiat. Vivamus fermentum ligula justo, sit amet blandit nisl volutpat id.</p>
-
-                            <p class="m-b-0">Donec mattis ipsum in erat viverra commodo. 
-                                Proin sapien lacus, euismod eget nisl in, 
-                                elementum posuere massa. Curabitur a odio
-                                eros. Cras aliquam lectus erat, non semper est
-                                volutpat eget. Ut eget erat tincidunt.</p>
-
-                            <a href="#" class="tm-btn tm-margin-t-small">Detail</a> 
-                        </section>                        
-                 
-
-                    </div>
-
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-contact-right">
-                        
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                                <div class="tm-aside-container">
-                                    <h3 class="tm-gold-text tm-title">
-                                        Categories
-                                    </h3>
-                                    <nav>
-                                        <ul class="nav">
-                                            <li><a href="#" class="tm-text-link">Lorem ipsum dolor sit</a></li>
-                                            <li><a href="#" class="tm-text-link">Tincidunt non faucibus placerat</a></li>
-                                            <li><a href="#" class="tm-text-link">Vestibulum tempor ac lectus</a></li>
-                                            <li><a href="#" class="tm-text-link">Elementum egestas dui</a></li>
-                                            <li><a href="#" class="tm-text-link">Nam in augue consectetur</a></li>
-                                            <li><a href="#" class="tm-text-link">Text Link Color #006699</a></li>
-                                        </ul>
-                                    </nav>
-                                    <hr class="tm-margin-t-small">   
-                                    <h3 class="tm-gold-text tm-title tm-margin-t-small">
-                                        Useful Links
-                                    </h3>
-                                    <nav>   
-                                        <ul class="nav">
-                                            <li><a href="#" class="tm-text-link">Suspendisse sed dui nulla</a></li>
-                                            <li><a href="#" class="tm-text-link">Lorem ipsum dolor sit</a></li>
-                                            <li><a href="#" class="tm-text-link">Duiss nec purus et eros</a></li>
-                                            <li><a href="#" class="tm-text-link">Etiam pulvinar et ligula sed</a></li>
-                                            <li><a href="#" class="tm-text-link">Proin egestas eu felis et iaculis</a></li>
-                                            <li><a href="#" class="tm-text-link">Fusce non turpis euismod</a></li>
-                                        </ul>
-                                    </nav>      
-                                </div>
-                                 
-                            </div>
-
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                                
-                                <div class="tm-content-box tm-content-box-contact">
-                                    <img src="img/tm-img-310x180-1.jpg" alt="Image" class="tm-margin-b-20 img-fluid">
-                                    <h4 class="tm-margin-b-20 tm-gold-text">Lorem ipsum dolor #1</h4>
-                                    <p class="tm-margin-b-20 tm-p-small">Aenean cursus tellus mauris, quis
-                                    consequat mauris dapibus id. Donec
-                                    scelerisque porttitor pharetra</p>
-                                    <a href="#" class="tm-btn text-uppercase">Detail</a>    
-                                </div> 
-
-                                <div class="tm-content-box tm-margin-t-mid tm-content-box-contact">
-                                    <img src="img/tm-img-310x180-2.jpg" alt="Image" class="tm-margin-b-20 img-fluid">
-                                    <h4 class="tm-margin-b-20 tm-gold-text">Lorem ipsum dolor #2</h4>
-                                    <p class="tm-margin-b-20 tm-p-small">Aenean cursus tellus mauris, quis
-                                    consequat mauris dapibus id. Donec
-                                    scelerisque porttitor pharetra</p>
-                                    <a href="#" class="tm-btn text-uppercase">Read More</a>    
-                                </div>  
-
-                            </div>
-                        </div>
-                        <hr class="tm-margin-t-mid">
-                        <div class="row tm-contact-row-related-posts">
-                            <div class="col-xs-12">
-                                
-                                <div class="tm-contact-related-posts-container">
-                                    <h3 class="tm-gold-text tm-title tm-margin-b-30">Related Posts</h3>
-                                    <div class="media tm-related-post">
-                                      <div class="media-left media-middle">
-                                        <a href="#">
-                                          <img class="media-object" src="img/tm-img-240x120-1.jpg" alt="Generic placeholder image">
-                                        </a>
-                                      </div>
-                                      <div class="media-body">
-                                        <a href="#"><h4 class="media-heading tm-gold-text tm-margin-b-15">Lorem ipsum dolor</h4></a>
-                                        <p class="tm-small-font tm-media-description">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p>
-                                      </div>
-                                    </div>
-                                    <div class="media tm-related-post">
-                                      <div class="media-left media-middle">
-                                        <a href="#">
-                                          <img class="media-object" src="img/tm-img-240x120-2.jpg" alt="Generic placeholder image">
-                                        </a>
-                                      </div>
-                                      <div class="media-body">
-                                        <a href="#"><h4 class="media-heading tm-gold-text tm-margin-b-15">Lorem ipsum dolor</h4></a>
-                                        <p class="tm-small-font tm-media-description">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p>
-                                      </div>
-                                    </div>
-                                    <div class="media tm-related-post">
-                                      <div class="media-left media-middle">
-                                        <a href="#">
-                                          <img class="media-object" src="img/tm-img-240x120-3.jpg" alt="Generic placeholder image">
-                                        </a>
-                                      </div>
-                                      <div class="media-body">
-                                        <a href="#"><h4 class="media-heading tm-gold-text tm-margin-b-15">Lorem ipsum dolor</h4></a>
-                                        <p class="tm-small-font tm-media-description">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p>
-                                      </div>
-                                    </div>
-                                </div>                                
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+    <!-- End Preloader -->
+    <div class="tm-top-header">
+      <div class="container">
+        <div class="row">
+          <div class="tm-top-header-inner">
+            <div class="tm-logo-container">
+              <img src="img/logo.png" alt="Logo" class="tm-site-logo">
+              <h1 class="tm-site-name tm-handwriting-font">Cafe House</h1>
             </div>
+            <div class="mobile-menu-icon">
+              <i class="fa fa-bars"></i>
+            </div>
+            <nav class="tm-nav">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="today-special.html">Today Special</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+              </ul>
+            </nav>   
+          </div>           
+        </div>    
+      </div>
+    </div>
+    <section class="tm-welcome-section">
+      <div class="container tm-position-relative">
+        <div class="tm-lights-container">
+          <img src="img/light.png" alt="Light" class="light light-1">
+          <img src="img/light.png" alt="Light" class="light light-2">
+          <img src="img/light.png" alt="Light" class="light light-3">  
+        </div>        
+        <div class="row tm-welcome-content">
+          <h2 class="white-text tm-handwriting-font tm-welcome-header"><img src="img/header-line.png" alt="Line" class="tm-header-line">&nbsp;Contact Us&nbsp;&nbsp;<img src="img/header-line.png" alt="Line" class="tm-header-line"></h2>
+          <h2 class="gold-text tm-welcome-header-2">Cafe House</h2>
+          <p class="gray-text tm-welcome-description">Cafe House is free <span class="gold-text">responsive Bootstrap</span> v3.3.5 layout by <span class="gold-text">templatemo</span>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+          <a href="#main" class="tm-more-button tm-more-button-welcome">Message Us</a>      
+        </div>
+        <img src="img/table-set.png" alt="Table Set" class="tm-table-set img-responsive">            
+      </div>      
+    </section>
+    <div class="tm-main-section light-gray-bg">
+      <div class="container" id="main">
+        <section class="tm-section row">
+          <h2 class="col-lg-12 margin-bottom-30">Send us a message</h2>
+          <form action="#" method="post" class="tm-contact-form">
+            <div class="col-lg-6 col-md-6">
+              <div class="form-group">
+                <input type="text" id="contact_name" class="form-control" placeholder="NAME" />
+              </div>
+              <div class="form-group">
+                <input type="email" id="contact_email" class="form-control" placeholder="EMAIL" />
+              </div>
+              <div class="form-group">
+                <input type="text" id="contact_subject" class="form-control" placeholder="SUBJECT" />
+              </div>
+              <div class="form-group">
+                <textarea id="contact_message" class="form-control" rows="6" placeholder="MESSAGE"></textarea>
+              </div>
+              <div class="form-group">
+                <button class="tm-more-button" type="submit" name="submit">Send message</button> 
+              </div>               
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div id="google-map"></div>
+            </div> 
+          </form>
         </section>
-        
-        <footer class="tm-footer">
-            <div class="container-fluid">
-                <div class="row">
-                    
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                        
-                        <div class="tm-footer-content-box">
-                            <h3 class="tm-gold-text tm-title tm-footer-content-box-title">Proin eu posuere felis</h3>
-                            <div class="tm-gray-bg">
-                                <p>You can download, modify and use Classic HTML CSS template from templatemo.com website.</p>
-                                <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p>
-                                <p><strong>Danny Egg (Executive)</strong></p>    
-                            </div>    
-                        </div>
-                                                
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                        <div class="tm-footer-content-box tm-footer-links-container">
-                        
-                            <h3 class="tm-gold-text tm-title tm-footer-content-box-title">Nulla tortor dolor</h3>
-                            <nav>
-                                <ul class="nav">
-                                    <li><a href="#" class="tm-footer-link">Tincidunt non faucibus</a></li>
-                                    <li><a href="#" class="tm-footer-link">Vestibulum tempor</a></li>
-                                    <li><a href="#" class="tm-footer-link">Fusce non turpis euismod</a></li>
-                                    <li><a href="#" class="tm-footer-link">Lorem ipsum dolor sit</a></li>
-                                    <li><a href="#" class="tm-footer-link">Nam in augue consectetur</a></li>
-                                    <li><a href="#" class="tm-footer-link">Text Link Color #CCCC66</a></li>
-                                </ul>
-                            </nav>
-
-                        </div>
-                        
-                    </div>
-
-                    <!-- Add the extra clearfix for only the required viewport 
-                        http://stackoverflow.com/questions/24590222/bootstrap-3-grid-with-different-height-in-each-item-is-it-solvable-using-only
-                    -->
-                    <div class="clearfix hidden-lg-up"></div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
-
-                        <div class="tm-footer-content-box">
-                        
-                            <h3 class="tm-gold-text tm-title tm-footer-content-box-title">Etiam mollis ornare</h3>
-                            <p class="tm-margin-b-30">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p><hr class="tm-margin-b-30">
-                            <p class="tm-margin-b-30">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p><hr class="tm-margin-b-30">
-                            <p class="tm-margin-b-30">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p>
-                            <a href="#" class="tm-btn tm-btn-gray text-uppercase">Read More</a>
-
-                        </div>
-                        
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
-
-                        <div class="tm-footer-content-box">
-                        
-                            <h3 class="tm-gold-text tm-title tm-footer-content-box-title">Fusce non turpis</h3>
-                            <div class="tm-margin-b-30">
-                                <img src="img/tm-img-100x100-1.jpg" alt="Image" class="tm-footer-thumbnail">
-                                <img src="img/tm-img-100x100-2.jpg" alt="Image" class="tm-footer-thumbnail">
-                                <img src="img/tm-img-100x100-3.jpg" alt="Image" class="tm-footer-thumbnail">
-                                <img src="img/tm-img-100x100-4.jpg" alt="Image" class="tm-footer-thumbnail">
-                                <img src="img/tm-img-100x100-5.jpg" alt="Image" class="tm-footer-thumbnail">
-                                <img src="img/tm-img-100x100-6.jpg" alt="Image" class="tm-footer-thumbnail">
-                            </div>
-                            <p class="tm-margin-b-20">Curabitur dui massa, aliquam quis mi sed, tempor vulputate tellus. Sed vestibulum non neque.</p>
-                            <a href="#" class="tm-btn tm-btn-gray text-uppercase">Browse</a>
-
-                        </div>
-                        
-                    </div>
-
-
-                </div>
-
-                <div class="row">
-                    <div class="col-xs-12 tm-copyright-col">
-                        <p class="tm-copyright-text">Copyright 2016 Your Company Name</p>
-                    </div>
-                </div>
+      </div>
+    </div> 
+    <footer>
+      <div class="tm-black-bg">
+        <div class="container">
+          <div class="row margin-bottom-60">
+            <nav class="col-lg-3 col-md-3 tm-footer-nav tm-footer-div">
+              <h3 class="tm-footer-div-title">Main Menu</h3>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Our Services</a></li>
+              </ul>
+            </nav>
+            <div class="col-lg-5 col-md-5 tm-footer-div">
+              <h3 class="tm-footer-div-title">About Us</h3>
+              <p class="margin-top-15">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+              <p class="margin-top-15">Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
             </div>
-        </footer>
+            <div class="col-lg-4 col-md-4 tm-footer-div">
+              <h3 class="tm-footer-div-title">Get Social</h3>
+              <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante.</p>
+              <div class="tm-social-icons-container">
+                <a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="tm-social-icon"><i class="fa fa-linkedin"></i></a>
+                <a href="#" class="tm-social-icon"><i class="fa fa-youtube"></i></a>
+                <a href="#" class="tm-social-icon"><i class="fa fa-behance"></i></a>
+              </div>
+            </div>
+          </div>          
+        </div>  
+      </div>      
+      <div class="container">
+          <div class="row tm-copyright">
+           <p class="col-lg-12 small copyright-text text-center">Copyright &copy; 2084 Your Cafe House</p>
+         </div>  
+      </div>
+   </footer> <!-- Footer content-->  
+   <!-- JS -->
+   <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      <!-- jQuery -->
+   <script type="text/javascript" src="js/templatemo-script.js"></script>      <!-- Templatemo Script -->
+   <script>
+      /* Google map
+      ------------------------------------------------*/
+      var map = '';
+      var center;
 
-        <!-- load JS files -->
-        <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
-        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap, http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h --> 
-        <script src="js/bootstrap.min.js"></script>                 <!-- Bootstrap (http://v4-alpha.getbootstrap.com/) -->
-        <script>     
-       
-            /* Google map
-            ------------------------------------------------*/
-            var map = '';
-            var center;
-
-            function initialize() {
-                var mapOptions = {
-                    zoom: 16,
-                    center: new google.maps.LatLng(13.758468,100.567481),
-                    scrollwheel: false
-                };
-            
-                map = new google.maps.Map(document.getElementById('google-map'),  mapOptions);
-
-                google.maps.event.addDomListener(map, 'idle', function() {
-                  calculateCenter();
-                });
-            
-                google.maps.event.addDomListener(window, 'resize', function() {
-                  map.setCenter(center);
-                });
-            }
-
-            function calculateCenter() {
-                center = map.getCenter();
-            }
-
-            function loadGoogleMap(){
-                var script = document.createElement('script');
-                script.type = 'text/javascript';
-                script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
-                document.body.appendChild(script);
-            }
+      function initialize() {
+        var mapOptions = {
+          zoom: 16,
+          center: new google.maps.LatLng(13.758468,100.567481),
+          scrollwheel: false
+        };
         
-            // DOM is ready
-            $(function() {
+        map = new google.maps.Map(document.getElementById('google-map'),  mapOptions);
 
-                // Google Map
-                loadGoogleMap();
-            });
+        google.maps.event.addDomListener(map, 'idle', function() {
+          calculateCenter();
+        });
+        
+        google.maps.event.addDomListener(window, 'resize', function() {
+          map.setCenter(center);
+        });
+      }
 
-        </script>             
+      function calculateCenter() {
+        center = map.getCenter();
+      }
 
-</body>
-</html>
+      function loadGoogleMap(){
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
+        document.body.appendChild(script);
+      }
+      $(document).ready(function(){                
+        loadGoogleMap();                
+      });
+      </script>
+    </body>
+    </html>

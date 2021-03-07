@@ -1,8 +1,8 @@
 <?php
 
-use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WelcomeController;
+use App\Http\Controllers\ContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,8 +25,8 @@ use App\Http\Controllers\WelcomeController;
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'home']);
 
-Route::get('/home', function () {
-    return view('home');
+Route::get('/', function () {
+    return view('index');
 });
 
 Route::prefix('game')->group(function(){
