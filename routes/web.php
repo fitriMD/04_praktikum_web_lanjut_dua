@@ -1,7 +1,8 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\WelcomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,23 +14,42 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-/*Route::get('/', function () {
-    return view('welcome');
-});
-*/
+// Route::get('/hello', function () {
+//     return "Hello World";
+// });
 
-Route::get('/home', [HomeController::class, 'index']);
 
-Route::prefix('category') ->group(function () {
-    Route::get('/{id}', [HomeController::class, 'products']);
-});
+// Route::get('/hello', [WelcomeController::class,'hello']);
 
-Route::get('/news/{id?}', [HomeController::class, 'news']);
+// Auth::routes();
 
-Route::prefix('programkerja') ->group(function () {
-    Route::get('/{id}', [HomeController::class, 'program']);
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'home']);
+
+Route::get('/home', function () {
+    return view('home');
 });
 
-Route::get('/about', [HomeController::class, 'about']);
+Route::prefix('game')->group(function(){
+    Route::get('/list-game', function () {
+        return view('products');
+    });
+});
 
-Route::resource('/contact', HomeController::class);
+Route::get('news', function () {
+    return view('news', ['news' => 'news','topic' => 'educa-studio-berbagi-untuk-warga-sekitar-terdampak-covid-19']);
+});
+
+Route::prefix('program')->group(function(){
+    Route::get('/daftar-program', function () {
+        return view('program');
+    });
+});
+
+Route::get('/about-us', function () {
+    return view('about-us');
+});
+
+// Route::resource('/contact-us', view('contact-us'));
+
+Route::resource('contact', ContactController::class);
+

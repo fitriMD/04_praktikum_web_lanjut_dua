@@ -11,16 +11,16 @@
             <a href="/home" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
-            <a href="/category/{id}" class="nav-link">Products</a>
+            <a href="game/list-game" class="nav-link">Products</a>
         </li>
         <li class="nav-item">
-            <a href="/news/{id?}" class="nav-link">News</a>
+            <a href="/news" class="nav-link">News</a>
         </li>
         <li class="nav-item">
-            <a href="/programkerja/{id}" class="nav-link">Program</a>
+            <a href="/programkerja/daftar-program" class="nav-link">Program</a>
         </li>
         <li class="nav-item">
-            <a href="/about" class="nav-link">About-Us</a>
+            <a href="/about-us" class="nav-link">About-Us</a>
         </li>
         <li class="nav-item">
             <a href="/contact" class="nav-link">Contact-Us</a>
