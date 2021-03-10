@@ -13,18 +13,17 @@
 
     <section class="tm-section row">
           <div class="col-lg-12 tm-section-header-container">
-            <h2 class="tm-section-header gold-text tm-handwriting-font"><img src="img/logo.png" alt="Logo" class="tm-site-logo"> Today's Special</h2>
+            <h2 class="tm-section-header gold-text tm-handwriting-font"><img src="img/logo.png" alt="Logo" class="tm-site-logo">Our Services</h2>
             <div class="tm-hr-container"><hr class="tm-hr"></div>
           </div>          
           <div class="col-lg-12 tm-special-container margin-top-60">
             <div class="tm-special-container-left"> <!-- left -->
               <div class="tm-special-item">
                 <div class="tm-special-img-container">
-                  <img src="img/about/cafe1.jpg" alt="Special" class="tm-special-img img-responsive">  
+                  <img src="img/about/barista.jpg" alt="Special" class="tm-special-img img-responsive">  
                   <a href="#">
                     <div class="tm-special-description">
-                      <h3 class="tm-special-title">Donec pede justo</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>  
+                      <h4 class="tm-special-title">Barista yang handal</h4>
                     </div>            
                   </a>
                 </div>
@@ -37,8 +36,8 @@
                     <img src="img/about/cafe2.jpg" alt="Special" class="img-responsive">  
                     <a href="#">
                       <div class="tm-special-description">
-                        <h3 class="tm-special-title">Etiam sit amet</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        <h3 class="tm-special-title">Dekorasi yang kece</h3>
+                        <p>akan sangat damai menikmati kopi di sore hari.</p>
                       </div>
                     </a>
                   </div>
@@ -50,7 +49,7 @@
                     <img src="img/about/cafe3.jpg" alt="Special" class="img-responsive">  
                     <a href="#">
                       <div class="tm-special-description">
-                        <p>Vivamus elementum</p>
+                        <p>Suasana damai</p>
                       </div>
                     </a>
                   </div>
@@ -60,7 +59,7 @@
                     <img src="img/about/cafe4.jpg" alt="Special" class="img-responsive">  
                     <a href="#">
                       <div class="tm-special-description">
-                        <p>Quisque rutrum.</p>
+                        <p>Nyaman</p>
                       </div>
                     </a>
                   </div>

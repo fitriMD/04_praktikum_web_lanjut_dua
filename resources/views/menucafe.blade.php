@@ -38,16 +38,16 @@
                 <nav class="tm-side-menu">
                   <ul>
                     <li><a href="{{ url('/menu') }}" class="active">Affogato</a></li>
-                    <li><a href="{{ url('/menu') }}">Caffè Americano</a></li>
+                    <li><a href="{{ url('/menu') }}">Piccolo</a></li>
                     <li><a href="{{ url('/menu') }}">Caffè latte</a></li>
                     <li><a href="{{ url('/menu') }}">Coffee milk</a></li>
                     <li><a href="{{ url('/menu') }}">Café mocha</a></li>
                     <li><a href="{{ url('/menu') }}">Cappuccino</a></li>
                     <li><a href="{{ url('/menu') }}">Espresso</a></li>
                     <li><a href="{{ url('/menu') }}">Iced coffee</a></li>
-                    <li><a href="{{ url('/menu') }}">Instant coffee</a></li>
+                    <li><a href="{{ url('/menu') }}">Cold brew</a></li>
                     <li><a href="{{ url('/menu') }}">Mocha</a></li>
-                    <li><a href="{{ url('/menu') }}">black coffee</a></li>
+                    <li><a href="{{ url('/menu') }}">Macchiato</a></li>
                   </ul>              
                 </nav>    
                 <img src="img/vertical-menu-bg.png" alt="Menu bg" class="tm-side-menu-bg">
@@ -55,50 +55,50 @@
             </div>            
             <div class="tm-menu-product-content col-lg-9 col-md-9"> <!-- menu content -->
               <div class="tm-product">
-                <img src="img/menu-1.jpg" alt="Product">
+                <img src="img/affogato.jpg" alt="Product">
                 <div class="tm-product-text">
-                  <h3 class="tm-product-title">Americano 1</h3>
-                  <p class="tm-product-description">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. Red ipsum.</p>
+                  <h3 class="tm-product-title">Affogato</h3>
+                  <p class="tm-product-description">Affogato merupakan minuman kopi dengan satu sendok es krim vanila yang ‘ditenggelamkan’ dengan segelas kecil espresso panas.</p>
                 </div>
                 <div class="tm-product-price">
                   <a class="tm-product-price-link tm-handwriting-font"><span class="tm-product-price-currency">$</span>30</a>
                 </div>
               </div>
               <div class="tm-product">
-                <img src="img/menu-2.jpg" alt="Product">
+                <img src="img/piccolo.jpg" alt="Product">
                 <div class="tm-product-text">
-                  <h3 class="tm-product-title">Americano 2</h3>
-                  <p class="tm-product-description">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. Red ipsum.</p>
+                  <h3 class="tm-product-title">Piccolo</h3>
+                  <p class="tm-product-description">Picollo menggunakan ristretto, yang merupakan bagian terbaik dari proses ekstraksi espresso karena teksturnya lembut dan kadar asamnya sedikit akibat lamanya proses ekstraksi. </p>
                 </div>
                 <div class="tm-product-price">
                   <a class="tm-product-price-link tm-handwriting-font"><span class="tm-product-price-currency">$</span>20</a>
                 </div>
               </div>
               <div class="tm-product">
-                <img src="img/menu-3.jpg" alt="Product">
+                <img src="img/latte.jpg" alt="Product">
                 <div class="tm-product-text">
-                  <h3 class="tm-product-title">Americano 3</h3>
-                  <p class="tm-product-description">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. Red ipsum.</p>
+                  <h3 class="tm-product-title">Latte</h3>
+                  <p class="tm-product-description">Latte adalah minuman kopi yang dibuat dengan mencampurkan espresso dengan susu. Latte biasanya mengandung lebih banyak susu, sehingga kopinya terasa lebih smooth. </p>
                 </div>
                 <div class="tm-product-price">
                   <a class="tm-product-price-link tm-handwriting-font"><span class="tm-product-price-currency">$</span>15</a>
                 </div>
               </div>
               <div class="tm-product">
-                <img src="img/menu-4.jpg" alt="Product">
+                <img src="img/espresso.jpg" alt="Product">
                 <div class="tm-product-text">
-                  <h3 class="tm-product-title">Americano 4</h3>
-                  <p class="tm-product-description">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. Red ipsum.</p>
+                  <h3 class="tm-product-title">Espresso</h3>
+                  <p class="tm-product-description">Espresso merupakan saripati dari biji kopi karena merupakan ekstrak biji kopi murni tanpa campuran. Rasanya yang sangat pahit, membuat espresso biasanya disajikan dalam cangkir kecil yang biasa disebut espresso shot.</p>
                 </div>
                 <div class="tm-product-price">
                   <a class="tm-product-price-link tm-handwriting-font"><span class="tm-product-price-currency">$</span>25</a>
                 </div>
               </div>
               <div class="tm-product">
-                <img src="img/menu-5.jpg" alt="Product">
+                <img src="img/cold brew.jpg" alt="Product">
                 <div class="tm-product-text">
-                  <h3 class="tm-product-title">Americano 5</h3>
-                  <p class="tm-product-description">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. Red ipsum.</p>
+                  <h3 class="tm-product-title">Cold brew</h3>
+                  <p class="tm-product-description">cold brew merupakan metode penyeduhan kopi dengan perendaman selama minimal 8 jam dengan menggunakan air bersuhu ruang ataupun air dingin.</p>
                 </div>
                 <div class="tm-product-price">
                   <a class="tm-product-price-link tm-handwriting-font"><span class="tm-product-price-currency">$</span>45</a>

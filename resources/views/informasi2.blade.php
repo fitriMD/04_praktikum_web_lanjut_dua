@@ -22,8 +22,8 @@
                   <img src="img/about/coffee1.jpg" alt="Special" class="tm-special-img img-responsive">  
                   <a href="#">
                     <div class="tm-special-description">
-                      <h3 class="tm-special-title">Donec pede justo</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>  
+                      <h3 class="tm-special-title">Cappucino</h3>
+                      <p>Cappucino merupakan minuman panas pilihan untuk orang yang berhati hangat dan dapat dengan mudah melupakan sesuatu.</p>  
                     </div>            
                   </a>
                 </div>
@@ -36,30 +36,30 @@
                     <img src="img/about/spagheti1.jpg" alt="Special" class="img-responsive">  
                     <a href="#">
                       <div class="tm-special-description">
-                        <h3 class="tm-special-title">Etiam sit amet</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        <h6 class="tm-special-title">Crab Spaghetti with Creamy Tomato Sauce</h6>
                       </div>
                     </a>
                   </div>
                 </div>  
               </div>
-              <div class="tm-special-container-lower">
+             
                 <div class="tm-special-item">
                   <div class="tm-special-img-container">
                     <img src="img/about/nasgor1.jpg" alt="Special" class="img-responsive">  
                     <a href="#">
                       <div class="tm-special-description">
-                        <p>Vivamus elementum</p>
+                      <h5 class="tm-special-title">Nasi Goreng</h5>
                       </div>
                     </a>
                   </div>
                 </div>
+                <div class="tm-special-container-lower">
                 <div class="tm-special-item">
                   <div class="tm-special-img-container">
                     <img src="img/about/icetea1.jpg" alt="Special" class="img-responsive">  
                     <a href="#">
                       <div class="tm-special-description">
-                        <p>Quisque rutrum.</p>
+                        <p>Ice Tea</p>
                       </div>
                     </a>
                   </div>

@@ -18,8 +18,9 @@
         <section class="tm-section row">
           <div class="col-lg-9 col-md-9 col-sm-8">
             <h2 class="tm-section-header gold-text tm-handwriting-font">The Best Coffee for you</h2>
-            <h2>Cafe House</h2>
-            <p class="tm-welcome-description">This is free HTML5 website template from <span class="blue-text">template</span><span class="green-text">mo</span>. Fndimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Ettiam sit amet orci eget eros faucibus tincidunt.</p>
+            <h2>Fila's Cafe</h2>
+            <p class="tm-welcome-description">Weekend emang paling seru nongkrong rame-rame bareng teman, keluarga ataupun doi! Nikmati serunya Weekendmu ditemani dengan aroma sedap kopi  dari @FilaCafe. Semua jenis kopi tersedia dan tentunya makanan pendukung yang enak-enak!<br><br>
+              Jangan lupa untuk follow @FilaCafe untuk selalu dapetin info promo menarik lainnya juga yah. Yuk, langsung aja cek aplikasi Grabfood atau Gofood kamu untuk tahu lokasi terdekatmu ya!</p>
             <a href="#" class="tm-more-button margin-top-30">Read More</a> 
           </div>
           <div class="col-lg-3 col-md-3 col-sm-4 tm-welcome-img-container">
@@ -35,30 +36,30 @@
           </div>
           <div class="col-lg-12 tm-popular-items-container">
             <div class="tm-popular-item">
-              <img src="img/popular-1.jpg" alt="Popular" class="tm-popular-item-img">
+              <img src="img/americano.jpg" alt="Popular" class="tm-popular-item-img">
               <div class="tm-popular-item-description">
                 <h3 class="tm-handwriting-font tm-popular-item-title"><span class="tm-handwriting-font bigger-first-letter">a</span>mericano</h3><hr class="tm-popular-item-hr">
-                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
+                <p>Americano melambangkan ketenangan yang sempurna bagi Taysters yang menyukai hal-hal sederhana dalam hidup. Jika kamu pecinta kopi americano, berarti Taysters jenis orang yang menyukai ketenangan.<br><br><br></p>
                 <div class="order-now-container">
                   <a href="#" class="order-now-link tm-handwriting-font">Order Now</a>
                 </div>
               </div>              
             </div>
             <div class="tm-popular-item">
-              <img src="img/popular-2.jpg" alt="Popular" class="tm-popular-item-img">
+              <img src="img/cappucino.jpg" alt="Popular" class="tm-popular-item-img">
               <div class="tm-popular-item-description">
                 <h3 class="tm-handwriting-font tm-popular-item-title"><span class="tm-handwriting-font bigger-first-letter">c</span>appuccino</h3><hr class="tm-popular-item-hr">
-                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
+                <p>Cappucino merupakan minuman panas pilihan untuk orang yang berhati hangat dan dapat dengan mudah melupakan sesuatu. Jika Tasyters menyukai minuman ini, berarti kamu membutuhkan seorang teman untuk bisa melihat sesuatu dengan logis dan tidak melibatkan perasaan lagi.</p>
                 <div class="order-now-container">
                   <a href="#" class="order-now-link tm-handwriting-font">Order Now</a>
                 </div>
               </div>              
             </div>
             <div class="tm-popular-item">
-              <img src="img/popular-3.jpg" alt="Popular" class="tm-popular-item-img">
+              <img src="img/mocha.jpg" alt="Popular" class="tm-popular-item-img">
               <div class="tm-popular-item-description">
                 <h3 class="tm-handwriting-font tm-popular-item-title"><span class="tm-handwriting-font bigger-first-letter">m</span>ocha</h3><hr class="tm-popular-item-hr">
-                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
+                <p>Taysters penikmat kopi Mocha berarti kamu orang yang menyenangkan, tipikal orang yang mencintai dengan baik dan penuh kreativitas.<br><br><br><br><br></p>
                 <div class="order-now-container">
                   <a href="#" class="order-now-link tm-handwriting-font">Order Now</a>
                 </div>
@@ -75,11 +76,11 @@
             <div class="tm-special-container-left"> <!-- left -->
               <div class="tm-special-item">
                 <div class="tm-special-img-container">
-                  <img src="img/special-1.jpg" alt="Special" class="tm-special-img img-responsive">  
+                  <img src="img/kopi.jpg" alt="Special" class="tm-special-img img-responsive">  
                   <a href="#">
                     <div class="tm-special-description">
-                      <h3 class="tm-special-title">Donec pede justo</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>  
+                      <h3 class="tm-special-title">Cinta, Kopi & Kesempurnaan</h3>
+                      <p>Kopi sempurna karena rasa pahitnya. Demikian pula cinta.</p>  
                     </div>            
                   </a>
                 </div>
@@ -89,11 +90,11 @@
               <div>
                 <div class="tm-special-item">
                   <div class="tm-special-img-container">
-                    <img src="img/special-2.jpg" alt="Special" class="img-responsive">  
+                    <img src="img/hidup.jpg" alt="Special" class="img-responsive">  
                     <a href="#">
                       <div class="tm-special-description">
-                        <h3 class="tm-special-title">Etiam sit amet</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        <h3 class="tm-special-title">Kurang Gula</h3>
+                        <p>Jika hidupmu terasa pahit, berarti kopimu kurang gula.</p>
                       </div>
                     </a>
                   </div>
@@ -102,20 +103,20 @@
               <div class="tm-special-container-lower">
                 <div class="tm-special-item">
                   <div class="tm-special-img-container">
-                    <img src="img/special-3.jpg" alt="Special" class="img-responsive">  
+                    <img src="img/bunga.jpg" alt="Special" class="img-responsive">  
                     <a href="#">
                       <div class="tm-special-description">
-                        <p>Vivamus elementum</p>
+                        <p>Stay happy</p>
                       </div>
                     </a>
                   </div>
                 </div>
                 <div class="tm-special-item">
                   <div class="tm-special-img-container">
-                    <img src="img/special-4.jpg" alt="Special" class="img-responsive">  
+                    <img src="img/bunga2.jpg" alt="Special" class="img-responsive">  
                     <a href="#">
                       <div class="tm-special-description">
-                        <p>Quisque rutrum.</p>
+                        <p>Stay healthy</p>
                       </div>
                     </a>
                   </div>
@@ -137,14 +138,16 @@
                 <img src="img/menu-board.png" alt="Menu board" class="tm-daily-menu-img">      
               </div>            
               <div class="col-lg-8 col-md-8">
-                <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+                <p>YEAY!! HARI INI Kalian masih bisa nikmati Promo Tahun baru Fila Cafe dengan harga spesial mulai dari Rp. 27.273,-<br><br>
+                Udah gitu, Bisa tambah menu lain favorit kamu juga, kayak : Fire Burst, Potato Pompom, atau Richoco Ice Cream Cup<br><br>
+                Syarat & Ketentuan:</p>
                 <ol class="margin-top-30">
-                  <li>Tellus eget condimentum rhoncus.</li> 
-                  <li>Sem quam semper libero.</li>
-                  <li>Sit amet adipiscing sem neque sed ipsum.</li> 
-                  <li>Nam quam nunc, blandit vel, luctus pulvinar.</li> 
-                  <li>Maecenas nec odio et ante tincidunt tempus.</li> 
-                  <li>Donec vitae sapien ut libero ventenatis faucibus.</li> 
+                  <li>Promo berlaku mulai 13 Maret 2021 mulai pukul 10.00 s.d 17.00.</li> 
+                  <li>Berlaku di seluruh outlet Fila Cafe.</li>
+                  <li>Promo hanya berlaku Dine In, Take Away dan Drive Thru.</li> 
+                  <li>Tidak berlaku untuk Delivery dan pemesanan via aplikasi online.</li> 
+                  <li>Harga belum termasuk pajak.</li> 
+                  <li>Harga berbeda di setiap outlet dan wilayah.</li> 
                 </ol>
                 <a href="#" class="tm-more-button margin-top-30">Read More</a>    
               </div>
