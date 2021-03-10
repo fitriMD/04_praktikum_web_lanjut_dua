@@ -46,5 +46,9 @@ class HomeController extends Controller
     {
         return view('contact');
     }
+    public function respon()
+    {
+        return view('respon');
+    }
 }
 

@@ -41,5 +41,7 @@ Route::get('/informasi1', [HomeController::class, 'informasi1']);
 
 Route::get('/informasi2', [HomeController::class, 'informasi2']);
 
+Route::get('/respon', [HomeController::class, 'respon']);
+
 
 

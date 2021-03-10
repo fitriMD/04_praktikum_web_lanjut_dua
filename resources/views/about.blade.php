@@ -18,28 +18,31 @@
     </br>
     </br>
     <div class="tm-popular-item">
-              <img src="img/about/cafe6.jpg" alt="Popular" class="tm-popular-item-img" weight="180px" height="148px">
-              <div class="tm-popular-item-description">
-                <div class="order-now-container">
-                <a href="#" class="order-now-link tm-handwriting-font">Fila's Cafe</a>
+              <img src="img/about/cafe6.jpg" alt="Popular" class="kiri" float="left" margin="10px" max-width="100%" display="block" height="auto">
                 </div>
               </div>              
             </div>
-    <div class="tm-popular-item">
-              <img src="img/about/cafe1.jpg" alt="Popular" class="tm-popular-item-img" weight="200px" height="191px">
-              <div class="tm-popular-item-description">
-                <div class="order-now-container">
-                <a href="#" class="order-now-link tm-handwriting-font">Fila's Cafe</a>
-                </div>
-              </div>              
+            <section class="tm-section">
+          <div class="row">
+            <div class="col-lg-12 tm-section-header-container">
+              <h2 class="tm-section-header gold-text tm-handwriting-font"><img src="img/logo.png" alt="Logo" class="tm-site-logo"> All About Fila's</h2> 
+              <div class="tm-hr-container"><hr class="tm-hr"></div> 
+            </div>  
+          </div>          
+          <div class="row">
+            <div class="tm-daily-menu-container margin-top-60">
+              <div class="col-lg-4 col-md-4">
+                <img src="img/menu-board.png" alt="Menu board" class="tm-daily-menu-img">      
+              </div>            
+              <div class="col-lg-8 col-md-8"> 
+                <p> <span class="white-text"><b>Keberhasilanmu bukan terkait nominal tapi terkait kapasitas senangmu di setiap harinya.</b></span></p>
+              </div>
             </div>
-    <div class="tm-popular-item">
-              <img src="img/about/cafe2.jpg" alt="Popular" class="tm-popular-item-img" weight="190px" height="215px">
-              <div class="tm-popular-item-description">
-                <div class="order-now-container">
-                <a href="#" class="order-now-link tm-handwriting-font">Fila's Cafe</a>
-                </div>
-              </div>              
-            </div>        
+          </div>          
+        </section>
+      </div>
+    </div>
 
-@endsection
+@endsection                                                              
+
+ 

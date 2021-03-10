@@ -31,7 +31,7 @@
                 <textarea id="contact_message" class="form-control" rows="6" placeholder="MESSAGE"></textarea>
               </div>
               <div class="form-group">
-                <button class="tm-more-button" type="submit" name="submit">Send message</button> 
+              <a href="{{ url('/respon') }}" class="tm-more-button tm-more-button-welcome">Send Message</a>  
               </div>               
             </div>
             <div class="col-lg-6 col-md-6">
