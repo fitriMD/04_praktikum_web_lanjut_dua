@@ -1,13 +1,17 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Models\Post;
 use Illuminate\Http\Request;
 
 
 class HomeController extends Controller
 {
-    
+    public function todayspecial()
+    {
+        $post = Post::all();
+        return view('todayspecial', ['data' => $post]);
+    }
     public function index()
     {
         return view('index');
@@ -21,11 +25,6 @@ class HomeController extends Controller
     public function varianmenu()
     {
         return view('varianmenu');
-    }
-
-    public function todayspecial()
-    {
-        return view('todayspecial');
     }
 
     public function about()
