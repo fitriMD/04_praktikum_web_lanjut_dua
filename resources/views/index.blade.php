@@ -35,17 +35,20 @@
             <div class="tm-hr-container"><hr class="tm-hr"></div>
           </div>
           <div class="col-lg-12 tm-popular-items-container">
+          
+           @foreach($dataIndex as $itemIndex)
             <div class="tm-popular-item">
-              <img src="img/americano.jpg" alt="Popular" class="tm-popular-item-img">
+              <img src="{{$itemIndex -> featured_image}}" alt="Popular" class="tm-popular-item-img">
               <div class="tm-popular-item-description">
-                <h3 class="tm-handwriting-font tm-popular-item-title"><span class="tm-handwriting-font bigger-first-letter">a</span>mericano</h3><hr class="tm-popular-item-hr">
-                <p>Americano melambangkan ketenangan yang sempurna bagi Taysters yang menyukai hal-hal sederhana dalam hidup. Jika kamu pecinta kopi americano, berarti Taysters jenis orang yang menyukai ketenangan.<br><br><br></p>
+                <h3 class="tm-handwriting-font tm-popular-item-title"><span class="tm-handwriting-font bigger-first-letter"></span>{{$itemIndex -> title}}</h3><hr class="tm-popular-item-hr">
+                <p>{{$itemIndex -> content}}<br><br><br></p>
                 <div class="order-now-container">
                   <a href="#" class="order-now-link tm-handwriting-font">Order Now</a>
                 </div>
               </div>              
             </div>
-            <div class="tm-popular-item">
+            @endforeach
+            <!--<div class="tm-popular-item">
               <img src="img/cappucino.jpg" alt="Popular" class="tm-popular-item-img">
               <div class="tm-popular-item-description">
                 <h3 class="tm-handwriting-font tm-popular-item-title"><span class="tm-handwriting-font bigger-first-letter">c</span>appuccino</h3><hr class="tm-popular-item-hr">
@@ -66,7 +69,7 @@
               </div>              
             </div>
           </div>          
-        </section>
+        </section> -->
         <section class="tm-section row">
           <div class="col-lg-12 tm-section-header-container">
             <h2 class="tm-section-header gold-text tm-handwriting-font"><img src="img/logo.png" alt="Logo" class="tm-site-logo"> Today's Special</h2>

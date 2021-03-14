@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\Post;
+use App\Models\Home;
 use Illuminate\Http\Request;
 
 
@@ -14,7 +15,8 @@ class HomeController extends Controller
     }
     public function index()
     {
-        return view('index');
+        $home = Home::all();
+        return view('index', ['dataIndex' => $home]);
     }
 
     public function menucafe()
