@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 use App\Models\Post;
 use App\Models\Home;
+use App\Models\Menu;
 use Illuminate\Http\Request;
+
 
 
 class HomeController extends Controller
@@ -21,7 +23,8 @@ class HomeController extends Controller
 
     public function menucafe()
     {
-        return view('menucafe');
+        $menu = Menu::all();
+        return view('menucafe', ['dataMenu' => $menu]);
     }
 
     public function varianmenu()

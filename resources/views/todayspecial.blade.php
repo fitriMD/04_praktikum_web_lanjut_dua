@@ -30,7 +30,7 @@
                 </div>
               </div>              
             </div>
-            @endforeach
+          @endforeach
             <!--<div class="tm-popular-item">
               <img src="img/cappucino.jpg" alt="Popular" class="tm-popular-item-img">
               <div class="tm-popular-item-description">

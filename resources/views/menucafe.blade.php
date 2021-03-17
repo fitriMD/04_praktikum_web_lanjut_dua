@@ -52,9 +52,21 @@
                 </nav>    
                 <img src="img/vertical-menu-bg.png" alt="Menu bg" class="tm-side-menu-bg">
               </div>  
-            </div>            
-            <div class="tm-menu-product-content col-lg-9 col-md-9"> <!-- menu content -->
-              <div class="tm-product">
+            </div>    
+            <div class="tm-menu-product-content col-lg-9 col-md-9"> <!--menu -->
+            @foreach($dataMenu as $itemMenu)  
+            <div class="tm-product">
+                <img src="{{$itemMenu -> featured_image}}" alt="Product">
+                <div class="tm-product-text">
+                  <h3 class="tm-product-title">{{$itemMenu -> title}}</h3>
+                  <p class="tm-product-description">{{$itemMenu -> content}}</p>
+                </div>
+                <div class="tm-product-price">
+                  <a class="tm-product-price-link tm-handwriting-font"><span class="tm-product-price-currency">$</span>30</a>
+                </div>
+              </div>
+              @endforeach
+              <!--<div class="tm-product">
                 <img src="img/affogato.jpg" alt="Product">
                 <div class="tm-product-text">
                   <h3 class="tm-product-title">Affogato</h3>
@@ -105,7 +117,7 @@
                 </div>
               </div>
             </div>
-          </div>          
+          </div>  -->   
         </section>
       </div>
     </div> 
